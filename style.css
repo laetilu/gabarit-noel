@@ -17,6 +17,7 @@
    padding: 0;
    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
    font-size: 14px;
+   font-weight:400;
  }
 
 
@@ -46,6 +47,10 @@
    float:left;
    margin: 20px;
  }
+.category1{
+   background-color: #337AB7;
+   color: #FFFFFF;
+ }
 
 main {
   width: 1170px;
@@ -60,16 +65,13 @@ h2 {
   margin: 20px;
   color: #393533;
 }
-/*.category1 {
-  background-color: #337AB7;
-}*/
 .category li {
   border:1px solid #E5E5E5;
   width: 75%;
   padding: 10px;
   list-style-type: none;
   margin-left: 20px;
-  color: #938B7E;
+  color: #393533;
 }
 .gauche {
   float:left;
@@ -80,13 +82,48 @@ article {
   width: 800px;
   border-radius: 5px;
 }
-article h2 {
+.productname {
   text-align: left;
-  margin-left: 5px;
+  color: #337AB7;
+  float: left;
+  width:75%;
+  margin-left: auto;
+}
+h2 {
+  color: #337AB7;
+}
+.prix {
+  float: right;
+  /*margin:0px;*/
+  width:25%;
+  text-align: right;
+  margin-top: 20px;
+  padding: 5px;
 }
 article p {
-  margin-left: 5px;
+  margin-left: 15px;
   margin-bottom: 5px;
+  display:inline-block;
+  text-align: justify;
+  padding: 5px;
+}
+.etoile {
+  color:#DA9CC5;
+  float:left;
+  width:87%;
+}
+.review {
+  color:#DA9CC5;
+  text-align: right;
+}
+.button {
+  border-radius: 5px;
+  background-color: #5CB85C;
+  padding: 10px;
+  margin-left: 630px;
+  color: #ffffff;
+  text-decoration: none;
+
 }
 .Avis {
   margin-top: 15px;
@@ -94,6 +131,16 @@ article p {
   width: 800px;
   border-radius: 5px;
   background-color: #F5F5F5;
+  height: 250px;
+  padding:20px;
+}
+.ligne {
+  margin:15px;
+  border:1px solid #E5E5E5;
+}
+.avis1 {
+  float: left;
+  margin-right: 530px;
 }
 .vide {
   clear: both;
